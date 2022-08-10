@@ -42,25 +42,6 @@ void deleta(no* time){ // encerro a lista ligada
 }
 
 int main(){
-    int n, num;
-    no *circ=NULL;
-
-    scanf("%i", &n);
-
-    for(int i=1;i<=n;i++){
-        scanf("%i", &num);
-        if(circ==NULL){
-            circ=malloc(sizeof(no));
-            circ->alt=num;
-            circ->rnext=circ;
-            circ->lnext=circ;
-            continue;
-        }
-        push(circ,num);
-    }
-    
-    print(circ);
-    deleta(circ);
     
     return 0;
 }

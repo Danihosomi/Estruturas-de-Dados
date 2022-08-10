@@ -62,25 +62,6 @@ void encerra_lista(Node *V){
 }
 
 int main(){
-    int n, m, c;
-    Node *V=NULL;
-
-    scanf("%i", &n);
- 
-    while(n--){
-        scanf("%i %i", &m, &c);
-        if(c==1)
-            insert(V->prox,m);
-        else if(c==2)
-            push_back(&V,m);
-        else
-            push_front(&V,m);
-    }
-
-    delete_val(&V,1);
-    print(V);
-    printf("\n");
-    encerra_lista(V);
 
     return 0;
 }
