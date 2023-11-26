@@ -1,4 +1,2 @@
 # Repositório para guardar minhas implementações de Estruturas de Dados
-1 - Linked List
-2 - Linked List Circular
-3 - 
+- Nem todas estão gerais

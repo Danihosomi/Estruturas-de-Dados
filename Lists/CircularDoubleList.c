@@ -40,8 +40,3 @@ void deleta(no* time){ // encerro a lista ligada
     }
     free(time);
 }
-
-int main(){
-    
-    return 0;
-}

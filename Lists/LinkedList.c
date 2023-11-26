@@ -60,8 +60,3 @@ void encerra_lista(Node *V){
         free(V);
     }
 }
-
-int main(){
-
-    return 0;
-}
